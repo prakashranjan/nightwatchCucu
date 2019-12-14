@@ -1,57 +1,84 @@
 [
   {
     "keyword": "Feature",
-    "name": "Duck duck Go Search",
-    "line": 1,
-    "id": "duck-duck-go-search",
-    "tags": [],
-    "uri": "features\\duckgo.feature",
+    "name": "projectHub login",
+    "line": 2,
+    "id": "projecthub-login",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "features\\login.feature",
     "elements": [
       {
-        "id": "duck-duck-go-search;searching-duck-duck-go",
+        "id": "projecthub-login;logging-into-projecthub-as-admin",
         "keyword": "Scenario",
-        "line": 3,
-        "name": "Searching Duck Duck go",
-        "tags": [],
+        "line": 13,
+        "name": "logging into projecthub as admin",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@adminLogin",
+            "line": 3
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
-            "name": "I open Duck's search page",
+            "line": 6,
+            "name": "I open projecthub page",
             "match": {
               "location": "..\\..\\Lobby_Project_workspace 1\\nightwatchCucu\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
             },
             "result": {
               "status": "passed",
-              "duration": 3205000000
+              "duration": 20398000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 6,
-            "name": "the title is \"DuckDuckGo — Privacy, simplified.\"",
+            "line": 7,
+            "name": "I open admin login page",
             "match": {
               "location": "..\\..\\Lobby_Project_workspace 1\\nightwatchCucu\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
             },
             "result": {
               "status": "passed",
-              "duration": 23000000
+              "duration": 2594000000
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "the Duck search form exists",
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I login as Admin",
             "match": {
               "location": "..\\..\\Lobby_Project_workspace 1\\nightwatchCucu\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
             },
             "result": {
               "status": "passed",
-              "duration": 77000000
+              "duration": 10188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I expect element \"All of your active projects that have one or more items requiring Hilton review are listed below.\" to be present",
+            "match": {
+              "location": "..\\..\\Lobby_Project_workspace 1\\nightwatchCucu\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5892000000
             }
           },
           {
@@ -71,57 +98,58 @@
   },
   {
     "keyword": "Feature",
-    "name": "Google Search",
-    "line": 1,
-    "id": "google-search",
-    "tags": [],
-    "uri": "features\\google.feature",
+    "name": "projectHub logout",
+    "line": 2,
+    "id": "projecthub-logout",
+    "tags": [
+      {
+        "name": "@logout",
+        "line": 1
+      }
+    ],
+    "uri": "features\\logout.feature",
     "elements": [
       {
-        "id": "google-search;searching-google",
+        "id": "projecthub-logout;logging-out-of-projecthub-as-admin",
         "keyword": "Scenario",
-        "line": 3,
-        "name": "Searching Google",
-        "tags": [],
+        "line": 11,
+        "name": "logging out of projecthub as admin",
+        "tags": [
+          {
+            "name": "@logout",
+            "line": 1
+          },
+          {
+            "name": "@adminLogout",
+            "line": 3
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I open Google's search page",
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I logout",
             "match": {
               "location": "..\\..\\Lobby_Project_workspace 1\\nightwatchCucu\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
             },
             "result": {
               "status": "passed",
-              "duration": 3379000000
+              "duration": 5639000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 6,
-            "name": "the title is \"Google\"",
-            "match": {
-              "location": "..\\..\\Lobby_Project_workspace 1\\nightwatchCucu\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
             "line": 7,
-            "name": "the Google search form exists",
+            "name": "I expect element \"Welcome to Project HUB\"",
             "match": {
               "location": "..\\..\\Lobby_Project_workspace 1\\nightwatchCucu\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
             },
             "result": {
               "status": "passed",
-              "duration": 47000000
+              "duration": 2107000000
             }
           },
           {
@@ -132,7 +160,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 1000000
             }
           }
         ]

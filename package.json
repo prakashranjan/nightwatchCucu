@@ -13,6 +13,7 @@
     "chromedriver": "^79.0.0",
     "cucumber-html-reporter": "^5.0.2",
     "geckodriver": "^1.19.1",
+    "iedriver": "^3.14.1",
     "mkdirp": "^0.5.1"
   },
   "scripts": {
