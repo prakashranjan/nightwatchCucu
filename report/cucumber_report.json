@@ -1,0 +1,142 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Duck duck Go Search",
+    "line": 1,
+    "id": "duck-duck-go-search",
+    "tags": [],
+    "uri": "features\\duckgo.feature",
+    "elements": [
+      {
+        "id": "duck-duck-go-search;searching-duck-duck-go",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Searching Duck Duck go",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open Duck's search page",
+            "match": {
+              "location": "..\\..\\Lobby_Project_workspace 1\\nightwatchCucu\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the title is \"DuckDuckGo — Privacy, simplified.\"",
+            "match": {
+              "location": "..\\..\\Lobby_Project_workspace 1\\nightwatchCucu\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the Duck search form exists",
+            "match": {
+              "location": "..\\..\\Lobby_Project_workspace 1\\nightwatchCucu\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "..\\..\\Lobby_Project_workspace 1\\nightwatchCucu\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Google Search",
+    "line": 1,
+    "id": "google-search",
+    "tags": [],
+    "uri": "features\\google.feature",
+    "elements": [
+      {
+        "id": "google-search;searching-google",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Searching Google",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open Google's search page",
+            "match": {
+              "location": "..\\..\\Lobby_Project_workspace 1\\nightwatchCucu\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3379000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the title is \"Google\"",
+            "match": {
+              "location": "..\\..\\Lobby_Project_workspace 1\\nightwatchCucu\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the Google search form exists",
+            "match": {
+              "location": "..\\..\\Lobby_Project_workspace 1\\nightwatchCucu\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "..\\..\\Lobby_Project_workspace 1\\nightwatchCucu\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
